@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
         movieResults.innerHTML = '<div class="loading">Searching movies...</div>';
   
         const response = await fetch(
-          `http://www.omdbapi.com/?s=${movieName}&apikey=14e82aca`
+          `http://www.omdbapi.com/?s=${movieName}&apikey=72af8bb0`
         );
         const data = await response.json();
   
